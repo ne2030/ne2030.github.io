@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    width: 100vw;
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .left-container {
+        background-color: #fafafa;
+        padding: 75px 85px 50px;
+        width: 40%;
+        height: 100%;
+        position: fixed;
+    }
+
+    .right-container {
+        position: relative;
+        width: 60%;
+        height: 1500px;
+        float: right;
+    }
+
+    .title {
+        margin-top: 28vh;
+        font-family: 'Source Sans Pro', 'Asap', 'Nanum Gothic Coding', sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 42px;
+        transition: opacity 500ms, transform 500ms;
+        opacity: 0;
+    }
+
+    .sub-title {
+        margin-top: 2vh;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Source Sans Pro', 'Asap', 'Nanum Gothic Coding', sans-serif;
+        letter-spacing: 1px;
+        transition: opacity 500ms, transform 500ms;
+        opacity: 0;
+    }
+
+    .outer-link:hover {
+        opacity: 0.66;
+        text-decoration: none;
+    }
+
+    .social-media-icons {
+        margin-top: 3vh;
+        transform: translateX(0px) translateY(0px) translateZ(0px);
+        transition: opacity 500ms, transform 500ms;
+    }
+
+    .social-media-icon {
+        width: 30px;
+        height: 30px;
+        opacity: 0;
+        display: inline-block;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        transition: all 500ms linear;
+        margin-right: 2em;
+    }
+
+    .half-opacity {
+        opacity: 0.5;
+    }
+
+    .social-media-icon:hover {
+        opacity: 1;
+    }
+
+    .sayHelloBtn {
+        margin-top: 3vh;
+        opacity: 0;
+        transition: opacity 500ms, transform 500ms;
+    }
+
+    .insta-icon { background-image: url(https://image.flaticon.com/icons/svg/733/733614.svg); }
+    .insta-icon:hover { background-image: url(https://image.flaticon.com/icons/svg/733/733558.svg); }
+    .github-icon { background-image: url(https://image.flaticon.com/icons/svg/25/25231.svg); }
+    .github-icon:hover { background-image: url(https://image.flaticon.com/icons/svg/733/733553.svg); }
+    .facebook-icon { background-image: url(https://www.flaticon.com/premium-icon/icons/svg/665/665209.svg); }
+    .facebook-icon:hover { background-image: url(https://image.flaticon.com/icons/svg/179/179319.svg); }
+    .medium-icon { background-image: url(https://www.flaticon.com/premium-icon/icons/svg/717/717417.svg); }
+    .medium-icon:hover { background-image: url(https://image.flaticon.com/icons/svg/174/174858.svg); }
+    .rocket-icon { background-image: url(https://image.flaticon.com/icons/svg/478/478543.svg); }
+    .rocket-icon:hover { background-image: url(https://image.flaticon.com/icons/png/512/478/478594.png); }
+}
+
+.sayHelloBtn {
+    background-color: #3b80fe;
+    color: white;
+    line-height: 20px;
+    padding: 15px 65px;
+    display: inline-block;
+    font-family: 'Source Sans Pro', 'Asap', 'Nanum Gothic Coding', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sayHelloBtn:active {
+    background-color: #5f96fa;
+}
+
+.section {
+    padding: 65px 45px;
+    color: white;
+    position: relative;
+    font-family: 'Quicksand', 'Nanum Gothic Coding', sans-serif;
+    font-weight: 300;
+}
+
+.section .content {
+    margin-top: 13vh;
+    text-align: center;
+}
+
+.section .footer {
+    margin-top: 25vh;
+}
+
+.first-section {
+    background-color: #025BA9;
+}
+
+.second-section {
+    background-color: #B4DDBF;
+}
+
+.third-section {
+    background-color: #4a4a4a;
+}
+
+.third-section .content {
+    text-align: left;
+}
+
+.img-content {
+    width: 80%;
+}
+

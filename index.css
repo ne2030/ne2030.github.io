@@ -9,7 +9,7 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .left-container {
     background-color: #fafafa;
     padding: 75px 85px 50px;
@@ -144,6 +144,10 @@
 
 .section .footer {
   margin-top: 25vh;
+}
+
+.forth-section {
+  background-color: #4a4a4a;
 }
 
 .first-section {

@@ -1,0 +1,31 @@
+{
+  "name": "ne2030.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --info-verbosity verbose --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ne2030/ne2030.github.io.git"
+  },
+  "keywords": [],
+  "author": "gyeonghun bae <erguono@gmail.com> (https://github.com/ne2030)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ne2030/ne2030.github.io/issues"
+  },
+  "homepage": "https://github.com/ne2030/ne2030.github.io#readme",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "fxjs": "^0.13.1"
+  }
+}
